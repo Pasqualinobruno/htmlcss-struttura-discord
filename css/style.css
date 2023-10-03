@@ -16,7 +16,9 @@
 .download{
     background-color: yellow;
     height: 500px;
- }
+    justify-content: center;
+    align-items: center;
+}
 
  /*header for logo*/
 header{
@@ -42,10 +44,61 @@ header{
 }
  /*section for dowload*/
  .download{
-    width: 80%;
     align-items: center;
     margin: auto;
  }
  .your-place{
-    
- }
+    background-color: red;
+    height: 250px;
+    width: 400px;
+   }
+ 
+.server-discord{
+    background-color: blueviolet;
+    height: 500px;
+    width: 50%;
+}
+
+.img{
+    background-color: palevioletred;
+    width: 30%;
+    height: 500px;
+}
+.mg{
+    margin: auto;
+    justify-content: center;
+}
+.tecnologi{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-color: brown;
+}
+/*section for footer*/
+
+.container{
+    background-color: rgb(84, 216, 27);
+    width: 80%;
+    margin: auto;
+    height: 500px;
+
+}
+.d-foot{
+    background-color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    margin: auto;
+}
+.col-1{
+    width: 40%;
+    height: 500px;
+    border: 2px solid white;
+}
+.col-2{
+    width: 15%;
+    border: 2px solid white;
+}
+
